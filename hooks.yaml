@@ -1,0 +1,6 @@
+-   id: commitfail
+    name: COMMITFAIL
+    description: Detect COMMITFAIL, @COMMITFAIL, NOCOMMIT, or @NOCOMMIT and fail the commit.
+    entry: commitfail-pre-hook.sh
+    language: script
+    files: ''
